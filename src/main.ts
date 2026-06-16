@@ -34,3 +34,47 @@ function closePopup(){
 }
 
 export {};
+
+let welcomePopup: any = null;
+
+WA.room.onEnterLayer("info_start").subscribe(() => {
+  if (welcomePopup) return;
+
+  welcomePopup = WA.ui.openPopup(
+    "welcome_popup",
+    `👋 Herzlich willkommen im iWIP WorkAdventure!
+
+Wir verbringen unsere heutige Lehrveranstaltung nicht in Zoom, sondern in einer virtuellen Lernumgebung auf Basis von WorkAdventure.
+
+🕹️ Kurzanleitung
+
+• Bewegen Sie Ihren Avatar mit den Pfeiltasten.
+• Wenn Sie sich anderen Personen nähern, können Sie miteinander sprechen.
+• Je näher Sie beieinander stehen, desto besser können Sie sich hören.
+• Nutzen Sie die verschiedenen Bereiche des Raumes für Austausch und Zusammenarbeit.
+• Interaktive Elemente erkennen Sie an Symbolen oder Markierungen.
+
+💡 Tipp
+
+Nehmen Sie sich zunächst etwas Zeit, den Raum zu erkunden und die verschiedenen Funktionen auszuprobieren.
+
+Viel Spaß beim Entdecken!`,
+    [
+      {
+        label: "Schließen",
+        className: "primary",
+        callback: (popup: any) => {
+          popup.close();
+          welcomePopup = null;
+        },
+      },
+    ]
+  );
+});
+
+WA.room.onLeaveLayer("info_start").subscribe(() => {
+  if (welcomePopup) {
+    welcomePopup.close();
+    welcomePopup = null;
+  }
+});
