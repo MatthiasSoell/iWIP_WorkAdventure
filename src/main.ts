@@ -31,7 +31,7 @@ WA.onInit()
         // iWIP Begrüßung
         // ==========================================
 
-        WA.room.area.onEnter("info_start").subscribe(() => {
+        WA.room.onEnterLayer("info_start").subscribe(() => {
             if (welcomePopup !== undefined) {
                 return;
             }
@@ -68,7 +68,7 @@ Viel Spaß beim Entdecken!`,
             );
         });
 
-        WA.room.area.onLeave("info_start").subscribe(() => {
+        WA.room.onLeaveLayer("info_start").subscribe(() => {
             if (welcomePopup !== undefined) {
                 welcomePopup.close();
                 welcomePopup = undefined;
