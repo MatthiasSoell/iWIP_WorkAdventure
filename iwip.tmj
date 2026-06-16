@@ -595,19 +595,6 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":1,
-         "firstgid":2956,
-         "image":"assets\/iwip.png",
-         "imageheight":88,
-         "imagewidth":141,
-         "margin":0,
-         "name":"iwip_logo",
-         "spacing":0,
-         "tilecount":1,
-         "tileheight":88,
-         "tilewidth":141
         }],
  "tilewidth":32,
  "type":"map",
