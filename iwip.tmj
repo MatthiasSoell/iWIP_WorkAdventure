@@ -445,6 +445,12 @@
                  "id":50,
                  "name":"info_start",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"type",
+                         "type":"string",
+                         "value":"area"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
