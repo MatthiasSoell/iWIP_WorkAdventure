@@ -2,47 +2,43 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
-console.info('Script started successfully');
+console.info("Script started successfully");
 
 let currentPopup: any = undefined;
+let welcomePopup: any = undefined;
 
 // Waiting for the API to be ready
-WA.onInit().then(() => {
-    console.info('Scripting API ready');
-    console.info('Player tags: ',WA.player.tags)
+WA.onInit()
+    .then(() => {
+        console.info("Scripting API ready");
+        console.info("Player tags: ", WA.player.tags);
 
-    WA.room.area.onEnter('clock').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
-    })
+        // Beispiel aus dem Starter Kit
+        WA.room.area.onEnter("clock").subscribe(() => {
+            const today = new Date();
+            const time = today.getHours() + ":" + today.getMinutes();
 
-    WA.room.area.onLeave('clock').subscribe(closePopup)
+            currentPopup = WA.ui.openPopup(
+                "clockPopup",
+                "It's " + time,
+                []
+            );
+        });
 
-    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
-    bootstrapExtra().then(() => {
-        console.info('Scripting API Extra ready');
-    }).catch(e => console.error(e));
+        WA.room.area.onLeave("clock").subscribe(closePopup);
 
-}).catch(e => console.error(e));
+        // ==========================================
+        // iWIP Begrüßung
+        // ==========================================
 
-function closePopup(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
-    }
-}
+        WA.room.area.onEnter("info_start").subscribe(() => {
+            if (welcomePopup !== undefined) {
+                return;
+            }
 
-export {};
-
-let welcomePopup: any = null;
-
-WA.room.onEnterLayer("info_start").subscribe(() => {
-  if (welcomePopup) return;
-
-  welcomePopup = WA.ui.openPopup(
-    "welcome_popup",
-    `👋 Herzlich willkommen im iWIP WorkAdventure!
+            welcomePopup = WA.ui.openPopup(
+                "welcome_popup",
+                `👋 Herzlich willkommen im iWIP WorkAdventure!
 
 Wir verbringen unsere heutige Lehrveranstaltung nicht in Zoom, sondern in einer virtuellen Lernumgebung auf Basis von WorkAdventure.
 
@@ -59,22 +55,39 @@ Wir verbringen unsere heutige Lehrveranstaltung nicht in Zoom, sondern in einer 
 Nehmen Sie sich zunächst etwas Zeit, den Raum zu erkunden und die verschiedenen Funktionen auszuprobieren.
 
 Viel Spaß beim Entdecken!`,
-    [
-      {
-        label: "Schließen",
-        className: "primary",
-        callback: (popup: any) => {
-          popup.close();
-          welcomePopup = null;
-        },
-      },
-    ]
-  );
-});
+                [
+                    {
+                        label: "Schließen",
+                        className: "primary",
+                        callback: (popup: any) => {
+                            popup.close();
+                            welcomePopup = undefined;
+                        },
+                    },
+                ]
+            );
+        });
 
-WA.room.onLeaveLayer("info_start").subscribe(() => {
-  if (welcomePopup) {
-    welcomePopup.close();
-    welcomePopup = null;
-  }
-});
+        WA.room.area.onLeave("info_start").subscribe(() => {
+            if (welcomePopup !== undefined) {
+                welcomePopup.close();
+                welcomePopup = undefined;
+            }
+        });
+
+        bootstrapExtra()
+            .then(() => {
+                console.info("Scripting API Extra ready");
+            })
+            .catch((e) => console.error(e));
+    })
+    .catch((e) => console.error(e));
+
+function closePopup() {
+    if (currentPopup !== undefined) {
+        currentPopup.close();
+        currentPopup = undefined;
+    }
+}
+
+export {};
