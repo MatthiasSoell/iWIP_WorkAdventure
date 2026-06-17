@@ -1,3 +1,4 @@
+// build test 2026-06-17
 /// <reference types="@workadventure/iframe-api-typings" />
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
