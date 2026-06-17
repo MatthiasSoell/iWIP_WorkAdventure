@@ -40,7 +40,7 @@ WA.onInit()
             welcomePopup?.close();
         });
 
-        WA.room.onEnterLayer("aufgaben").subscribe(() => {
+        WA.room.area.onEnter("aufgaben").subscribe(() => {
             aufgabenAction = WA.ui.displayActionMessage({
                 message: "Leertaste drücken, um die Aufgaben zu öffnen",
                 callback: () => {
@@ -49,7 +49,7 @@ WA.onInit()
             });
         });
 
-        WA.room.onLeaveLayer("aufgaben").subscribe(() => {
+        WA.room.area.onLeave("aufgaben").subscribe(() => {
             aufgabenAction?.remove();
         });
 
