@@ -458,6 +458,7 @@
                  "text":
                     {
                      "halign":"center",
+                     "pixelsize":14,
                      "text":"Impuls von Luise G\u00f6rlach"
                     },
                  "type":"",
@@ -687,7 +688,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um die WorkAdventure Aufgabe zu \u00f6ffnen"
+                         "value":"Leertaste dr\u00fccken, um mehr \u00fcber den Impuls von Luise G\u00f6rlach zu erfahren"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -850,7 +851,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um das UrhG zu \u00f6ffnen"
+                         "value":"Leertaste dr\u00fccken, um das UrhG zu \u00f6ffnen (Achtung: \u00f6ffnet in Tab)"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -888,7 +889,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um mehr \u00fcber das Urheberrecht in der Schule zu erfahren"
+                         "value":"Leertaste dr\u00fccken, um mehr \u00fcber das Urheberrecht in der Schule zu erfahren (Achtung: \u00f6ffnet in Tab)"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -1051,7 +1052,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um die DSGVO zu \u00f6ffnen"
+                         "value":"Leertaste dr\u00fccken, um die DSGVO zu \u00f6ffnen (Achtung: \u00f6ffnet in Tab)"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -1089,7 +1090,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um mehr \u00fcber den Datenschutz an den Schulen in MV zu erfahren"
+                         "value":"Leertaste dr\u00fccken, um mehr \u00fcber den Datenschutz an den Schulen in MV zu erfahren (Achtung: \u00f6ffnet in Tab)"
                         }, 
                         {
                          "name":"openWebsiteWidth",
