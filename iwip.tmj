@@ -51,9 +51,9 @@
             3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
-            0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+            0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0,
-            3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0,
+            3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0,
             3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0,
             3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
@@ -290,9 +290,9 @@
                     0, 1448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 2704, 0, 0, 0, 0, 0, 0, 0, 0, 2704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79, 80, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 155, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 165, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0,
-                    0, 213, 0, 0, 0, 95, 0, 0, 0, 0, 0, 0, 1557, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 155, 167, 2839, 2840, 2841, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 165, 0, 2852, 2853, 2854, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0,
+                    0, 213, 0, 2865, 2866, 2867, 0, 0, 0, 0, 0, 0, 1557, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2704, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 103, 0, 0, 169, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -448,6 +448,24 @@
                  "width":69.890625,
                  "x":353.0546875,
                  "y":318.578125
+                }, 
+                {
+                 "height":18.84375,
+                 "id":66,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"Impuls von Luise G\u00f6rlach",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":200,
+                 "x":762.808911397,
+                 "y":421.043665294
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -507,7 +525,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um die Aufgaben zu \u00f6ffnen"
+                         "value":"Leertaste dr\u00fccken, um den \u00dcberblick \u00fcber die Aufgaben zu \u00f6ffnen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -594,7 +612,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                         "value":"Leertaste dr\u00fccken, um eine Einf\u00fchrung zu WorkAdventure auf youtube.com anzusehen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -607,6 +625,44 @@
                  "width":190.51416069041,
                  "x":32.5562173331713,
                  "y":94.0512945180503
+                }, 
+                {
+                 "height":43.4083,
+                 "id":67,
+                 "name":"whiteboard",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/cryptpad.fr\/whiteboard\/#\/2\/whiteboard\/edit\/gcAmv55yoAioJtSvsS7y4WaH\/"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um das Whiteboard zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"50"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":44.6141409383736,
+                 "x":120.57855004862,
+                 "y":280.948092615777
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -681,7 +737,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                         "value":"Leertaste dr\u00fccken, um eine Einf\u00fchrung zum UrhG auf youtube.com anzusehen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -719,7 +775,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                         "value":"Leertaste dr\u00fccken, um das UrhG zu \u00f6ffnen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -757,7 +813,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                         "value":"Leertaste dr\u00fccken, um mehr \u00fcber das Urheberrecht in der Schule zu erfahren"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -882,7 +938,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                         "value":"Leertaste dr\u00fccken, um eine Einf\u00fchrung zur DSGVO auf youtube.com anzusehen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -920,7 +976,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                         "value":"Leertaste dr\u00fccken, um die DSGVO zu \u00f6ffnen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -958,7 +1014,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                         "value":"Leertaste dr\u00fccken, um mehr \u00fcber den Datenschutz an den Schulen in MV zu erfahren"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -1017,7 +1073,7 @@
          "y":0
         }],
  "nextlayerid":81,
- "nextobjectid":66,
+ "nextobjectid":68,
  "orientation":"orthogonal",
  "properties":[
         {
