@@ -136,7 +136,7 @@
          "name":"floor",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -210,7 +210,7 @@
          "name":"walls",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -288,7 +288,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1492, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 98, 99, 0, 0, 0, 0, 100, 0,
                     0, 1435, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 1448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 2704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79, 80, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 155, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 165, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0,
@@ -526,9 +526,96 @@
          "visible":true,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":78,
+         "name":"WA",
+         "objects":[
+                {
+                 "height":92.8455086908959,
+                 "id":53,
+                 "name":"WA",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"wa.html"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um die WorkAdventure Aufgabe zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"50"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":96.4628661723593,
+                 "x":31.3504315060168,
+                 "y":161.575300838702
+                }, 
+                {
+                 "height":31.3504315060168,
+                 "id":54,
+                 "name":"WA_video",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/zbllvQZRyh0?si=GYatCUFNT7LYp0BW"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":190.51416069041,
+                 "x":32.5562173331713,
+                 "y":94.0512945180503
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":78,
- "nextobjectid":53,
+ "nextlayerid":79,
+ "nextobjectid":55,
  "orientation":"orthogonal",
  "properties":[
         {
