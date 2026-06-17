@@ -41,12 +41,12 @@
             3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 0, 0, 3, 3, 0, 0, 3, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 3, 3, 3, 3, 0, 3,
-            3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
+            3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3,
-            3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3,
-            3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3,
-            3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 3, 3, 3, 3, 0, 3, 3, 0, 0, 3, 0, 0, 0, 3, 3, 0, 0, 3,
+            3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3,
+            3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3,
+            3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 3, 3, 0, 0, 3,
             3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3,
             3, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
@@ -288,12 +288,12 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1492, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 98, 99, 0, 0, 0, 0, 100, 0,
                     0, 1435, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 1448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 2704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 2704, 0, 0, 0, 0, 0, 0, 0, 0, 2704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79, 80, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 155, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 165, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0,
                     0, 213, 0, 0, 0, 95, 0, 0, 0, 0, 0, 0, 1557, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0,
+                    0, 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2704, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 103, 0, 0, 169, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -579,7 +579,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/zbllvQZRyh0?si=GYatCUFNT7LYp0BW"
+                         "value":"https:\/\/www.youtube.com\/embed\/Y9ubBWf5w20?si=saZ2z_aafwGjaAC8"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -613,9 +613,411 @@
          "visible":true,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":79,
+         "name":"Urheberrecht",
+         "objects":[
+                {
+                 "height":43.4082810866659,
+                 "id":55,
+                 "name":"whiteboard",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/cryptpad.fr\/whiteboard\/#\/2\/whiteboard\/edit\/Wj7YSKhbHG-qcMjCJO5-re86\/"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um das Whiteboard zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"50"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":65.1124684939832,
+                 "x":575.159822638872,
+                 "y":133.239338246019
+                }, 
+                {
+                 "height":89.2280889874802,
+                 "id":59,
+                 "name":"urhg_video",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/u684M4MVkvs?si=ufbru__A7-kIbkxW"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":61.4948724443904,
+                 "x":432.877214318707,
+                 "y":133.239365011547
+                }, 
+                {
+                 "height":89.2281,
+                 "id":60,
+                 "name":"urhg",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.gesetze-im-internet.de\/urhg\/"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":61.4949,
+                 "x":356.309800516592,
+                 "y":133.842252418865
+                }, 
+                {
+                 "height":89.2281,
+                 "id":61,
+                 "name":"urhg_pdf",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.bildung-forschung.digital\/digitalezukunft\/shareddocs\/Downloads\/files\/201211_urhschule_broschu-re-barrierefrei.pdf?__blob=publicationFile&v=2"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":61.4949,
+                 "x":508.238814738058,
+                 "y":135.048038246019
+                }, 
+                {
+                 "height":62.7009,
+                 "id":65,
+                 "name":"urhg_aufgabe",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"urheberrecht.html"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um die Urheberrecht Aufgabe zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"50"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":55.4662,
+                 "x":299.034859158867,
+                 "y":162.781068171873
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":80,
+         "name":"Datenschutz",
+         "objects":[
+                {
+                 "height":75.9645173331713,
+                 "id":56,
+                 "name":"whiteboard",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/cryptpad.fr\/whiteboard\/#\/2\/whiteboard\/edit\/Q2ELXet46qSoasBcGb-NBL8c\/"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um das Whiteboard zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"50"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":44.6141409383737,
+                 "x":321.94478318342,
+                 "y":344.854741454965
+                }, 
+                {
+                 "height":102.491763802115,
+                 "id":58,
+                 "name":"dsgvo_video",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/22nZxRPBpI0?si=q97YC26j2Ab85E1Y"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":50.642844050079,
+                 "x":437.700335602285,
+                 "y":315.915902467485
+                }, 
+                {
+                 "height":102.492,
+                 "id":62,
+                 "name":"dsgvo",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dsgvo-gesetz.de\/"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":50.6428,
+                 "x":370.176351306673,
+                 "y":315.312891454965
+                }, 
+                {
+                 "height":102.492,
+                 "id":63,
+                 "name":"dsgvo_pdf",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.datenschutz-mv.de\/static\/DS\/Dateien\/Themen\/pb-ds-schulen.pdf"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Einf\u00fchrung zu WorkAdventure auf youtube.com ansehen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":59.0833007900814,
+                 "x":512.459078910903,
+                 "y":316.51867728212
+                }, 
+                {
+                 "height":62.7008543211377,
+                 "id":64,
+                 "name":"dsgvo_aufgabe",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"datenschutz.html"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um die Datenschutz Aufgabe zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"50"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":55.4661818767473,
+                 "x":596.863967527653,
+                 "y":329.782428072201
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":79,
- "nextobjectid":55,
+ "nextlayerid":81,
+ "nextobjectid":66,
  "orientation":"orthogonal",
  "properties":[
         {
