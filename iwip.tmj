@@ -425,7 +425,8 @@
                  "rotation":0,
                  "text":
                     {
-                     "fontfamily":"Inter",
+                     "fontfamily":"Helvetica",
+                     "pixelsize":14,
                      "text":"Gruppe 1"
                     },
                  "type":"",
@@ -442,7 +443,8 @@
                  "rotation":0,
                  "text":
                     {
-                     "fontfamily":"Inter",
+                     "fontfamily":"Helvetica",
+                     "pixelsize":14,
                      "text":"Gruppe 2"
                     },
                  "type":"",
@@ -459,9 +461,9 @@
                  "rotation":0,
                  "text":
                     {
-                     "fontfamily":"Inter",
+                     "fontfamily":"Helvetica",
                      "halign":"center",
-                     "pixelsize":12,
+                     "pixelsize":10,
                      "text":"Impuls von Luise G\u00f6rlach"
                     },
                  "type":"",
@@ -1152,7 +1154,7 @@
          "y":0
         }],
  "nextlayerid":81,
- "nextobjectid":70,
+ "nextobjectid":72,
  "orientation":"orthogonal",
  "properties":[
         {
