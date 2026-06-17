@@ -44,7 +44,7 @@ WA.onInit()
             aufgabenAction = WA.ui.displayActionMessage({
                 message: "Leertaste drücken, um die Aufgaben zu öffnen",
                 callback: () => {
-                    WA.nav.openCoWebSite("./app/aufgaben.html");
+                    WA.nav.openCoWebSite("./aufgaben.html");
                 },
             });
         });
