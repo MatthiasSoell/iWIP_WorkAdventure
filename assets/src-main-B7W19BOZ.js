@@ -16,5 +16,5 @@ class A{constructor(e){this.properties=e??[]}get(e){const n=this.properties.filt
 
                 Ihre Aufgaben 📝 erhalten Sie am Tisch 🪑 nebenan.
 
-                Viel Erfolg 🍀 und vor allem viel Spaß 😄 beim Erkunden des Raumes 🚀!`,[{label:"Schließen",className:"primary",callback:()=>{G?.close()}}])}),WA.room.onLeaveLayer("info_start").subscribe(()=>{G?.close()}),WA.room.onEnterLayer("aufgaben").subscribe(()=>{X=WA.ui.displayActionMessage({message:"Leertaste drücken, um die Aufgaben zu öffnen",callback:()=>{WA.nav.openCoWebSite("./app/aufgaben.html")}})}),WA.room.onLeaveLayer("aufgaben").subscribe(()=>{X?.remove()}),De().then(()=>{console.info("Scripting API Extra ready")}).catch(t=>console.error(t))}).catch(t=>console.error(t));
-//# sourceMappingURL=src-main-CULH5qRD.js.map
+                Viel Erfolg 🍀 und vor allem viel Spaß 😄 beim Erkunden des Raumes 🚀!`,[{label:"Schließen",className:"primary",callback:()=>{G?.close()}}])}),WA.room.onLeaveLayer("info_start").subscribe(()=>{G?.close()}),WA.room.area.onEnter("aufgaben").subscribe(()=>{X=WA.ui.displayActionMessage({message:"Leertaste drücken, um die Aufgaben zu öffnen",callback:()=>{WA.nav.openCoWebSite("./app/aufgaben.html")}})}),WA.room.area.onLeave("aufgaben").subscribe(()=>{X?.remove()}),De().then(()=>{console.info("Scripting API Extra ready")}).catch(t=>console.error(t))}).catch(t=>console.error(t));
+//# sourceMappingURL=src-main-B7W19BOZ.js.map
