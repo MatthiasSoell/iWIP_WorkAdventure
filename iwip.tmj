@@ -419,58 +419,72 @@
                 }, 
                 {
                  "height":18.84375,
-                 "id":24,
+                 "id":72,
                  "name":"",
                  "opacity":1,
                  "rotation":0,
                  "text":
                     {
-                     "fontfamily":"Helvetica",
-                     "pixelsize":14,
-                     "text":"Gruppe 1"
-                    },
-                 "type":"",
-                 "visible":true,
-                 "width":69.890625,
-                 "x":355.0546875,
-                 "y":128.578125
-                }, 
-                {
-                 "height":18.84375,
-                 "id":25,
-                 "name":"",
-                 "opacity":1,
-                 "rotation":0,
-                 "text":
-                    {
-                     "fontfamily":"Helvetica",
-                     "pixelsize":14,
-                     "text":"Gruppe 2"
-                    },
-                 "type":"",
-                 "visible":true,
-                 "width":69.890625,
-                 "x":353.0546875,
-                 "y":318.578125
-                }, 
-                {
-                 "height":18.84375,
-                 "id":66,
-                 "name":"",
-                 "opacity":1,
-                 "rotation":0,
-                 "text":
-                    {
-                     "fontfamily":"Helvetica",
                      "halign":"center",
-                     "pixelsize":10,
-                     "text":"Impuls von Luise G\u00f6rlach"
+                     "text":"Impuls von"
                     },
                  "type":"",
                  "visible":true,
-                 "width":200,
-                 "x":762.808911397,
-                 "y":423.043665294
+                 "width":120,
+                 "x":804,
+                 "y":144.182354974
+                }, 
+                {
+                 "height":18.84375,
+                 "id":73,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"Luise G\u00f6rlach"
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":120,
+                 "x":804,
+                 "y":166.622855765
+                }, 
+                {
+                 "height":18.84375,
+                 "id":74,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"Datenschutz"
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":100,
+                 "x":312.32100572,
+                 "y":320.053510924
+                }, 
+                {
+                 "height":18.84375,
+                 "id":75,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "text":
+                    {
+                     "halign":"center",
+                     "text":"Urheberrecht",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":100,
+                 "x":312.32100572,
+                 "y":129.362493543
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1154,7 +1168,7 @@
          "y":0
         }],
  "nextlayerid":81,
- "nextobjectid":72,
+ "nextobjectid":76,
  "orientation":"orthogonal",
  "properties":[
         {
