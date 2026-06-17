@@ -292,7 +292,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79, 80, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 155, 167, 2839, 2840, 2841, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 165, 0, 2852, 2853, 2854, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0,
-                    0, 213, 0, 2865, 2866, 2867, 0, 0, 0, 0, 0, 0, 1557, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 213, 0, 2865, 2866, 95, 0, 0, 0, 0, 0, 0, 1557, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2704, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 103, 0, 0, 169, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -458,8 +458,7 @@
                  "text":
                     {
                      "halign":"center",
-                     "text":"Impuls von Luise G\u00f6rlach",
-                     "wrap":true
+                     "text":"Impuls von Luise G\u00f6rlach"
                     },
                  "type":"",
                  "visible":true,
@@ -530,7 +529,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"50"
+                         "value":"70"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -579,7 +578,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"50"
+                         "value":"70"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -627,8 +626,84 @@
                  "y":94.0512945180503
                 }, 
                 {
-                 "height":43.4083,
+                 "height":60.2893015801629,
                  "id":67,
+                 "name":"whiteboard",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/cryptpad.fr\/whiteboard\/#\/2\/whiteboard\/edit\/5C01L5dqh-fxu4GurNLeYiGb\/"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um das Whiteboard zum Impuls zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":135.048077974961,
+                 "x":795.818613255136,
+                 "y":136.253793357238
+                }, 
+                {
+                 "height":45.8198527409749,
+                 "id":68,
+                 "name":"goerlach",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"goerlach.html"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Leertaste dr\u00fccken, um die WorkAdventure Aufgabe zu \u00f6ffnen"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"70"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":49.4372527409748,
+                 "x":727.088836860338,
+                 "y":280.345209158867
+                }, 
+                {
+                 "height":43.4083,
+                 "id":69,
                  "name":"whiteboard",
                  "opacity":1,
                  "properties":[
@@ -650,18 +725,18 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um das Whiteboard zu \u00f6ffnen"
+                         "value":"Leertaste dr\u00fccken, um das Whiteboard zu WorkAdventure zu \u00f6ffnen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"50"
+                         "value":"70"
                         }],
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":44.6141409383736,
-                 "x":120.57855004862,
+                 "width":44.6141,
+                 "x":119.97567760423,
                  "y":280.948092615777
                 }],
          "opacity":1,
@@ -699,12 +774,12 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um das Whiteboard zu \u00f6ffnen"
+                         "value":"Leertaste dr\u00fccken, um das Whiteboard zum Urheberrecht zu \u00f6ffnen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"50"
+                         "value":"70"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -758,7 +833,7 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/www.gesetze-im-internet.de\/urhg\/"
                         }, 
@@ -796,7 +871,7 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/www.bildung-forschung.digital\/digitalezukunft\/shareddocs\/Downloads\/files\/201211_urhschule_broschu-re-barrierefrei.pdf?__blob=publicationFile&v=2"
                         }, 
@@ -856,7 +931,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"50"
+                         "value":"70"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -900,12 +975,12 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Leertaste dr\u00fccken, um das Whiteboard zu \u00f6ffnen"
+                         "value":"Leertaste dr\u00fccken, um das Whiteboard zum Datenschutz zu \u00f6ffnen"
                         }, 
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"50"
+                         "value":"70"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -959,7 +1034,7 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/dsgvo-gesetz.de\/"
                         }, 
@@ -997,7 +1072,7 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/www.datenschutz-mv.de\/static\/DS\/Dateien\/Themen\/pb-ds-schulen.pdf"
                         }, 
@@ -1057,7 +1132,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"50"
+                         "value":"70"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1073,7 +1148,7 @@
          "y":0
         }],
  "nextlayerid":81,
- "nextobjectid":68,
+ "nextobjectid":70,
  "orientation":"orthogonal",
  "properties":[
         {
