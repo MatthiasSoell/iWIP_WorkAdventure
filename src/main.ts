@@ -5,6 +5,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 console.info("Script started successfully");
 
 let welcomePopup: any = undefined;
+let aufgabenAction: any = undefined;
 
 WA.onInit()
     .then(() => {
@@ -14,23 +15,15 @@ WA.onInit()
         WA.room.onEnterLayer("info_start").subscribe(() => {
             welcomePopup = WA.ui.openPopup(
                 "welcome_popup",
-                `👋 Willkommen!
+                `👋 Herzlich Willkommen, liebe Pixelschubser & Wissensarchitekten!
 
-Pixelschubser und Wissensarchitekten:
-Sichere Gestaltung von Lernumgebungen im digitalen Zeitalter
+                Im virtuellen Lernraum des Moduls "Digitales Lehren und Lernen" erwartet Sie heute eine spannende Reise durch die Welt der digitalen Lernumgebungen 💻.
 
-Herzlich willkommen im virtuellen Lernraum des Moduls „Digitales Lehren und Lernen“.
+                Gemeinsam werden wir erkunden 🔎, wie wir solche Räume gestalten 🎨 können, damit sie nicht nur lernförderlich 🧠, sondern auch datenschutzsensibel 🔐 sind.
 
-In dieser Sitzung lernen Sie WorkAdventure als digitale Lernumgebung kennen und setzen sich mit der Frage auseinander, wie solche Räume lernförderlich, datenschutzsensibel und souverän gestaltet werden können.
+                Ihre Aufgaben 📝 erhalten Sie am Tisch 🪑 nebenan.
 
-Ihre Aufgaben:
-
-1. Raum erkunden und WorkAdventure kennenlernen
-2. Gruppenaufgabe zu Datenschutz und DSGVO bearbeiten
-3. Ergebnisse und Reflexionen am Whiteboard sichern
-4. Impuls Görlach zu Mediengestaltung und digitaler Souveränität diskutieren
-
-Viel Erfolg beim Erkunden des Raumes!`,
+                Viel Erfolg 🍀 und vor allem viel Spaß 😄 beim Erkunden des Raumes 🚀!`,
                 [
                     {
                         label: "Schließen",
@@ -45,6 +38,19 @@ Viel Erfolg beim Erkunden des Raumes!`,
 
         WA.room.onLeaveLayer("info_start").subscribe(() => {
             welcomePopup?.close();
+        });
+
+        WA.room.onEnterLayer("aufgaben").subscribe(() => {
+            aufgabenAction = WA.ui.displayActionMessage({
+                message: "Leertaste drücken, um die Aufgaben zu öffnen",
+                callback: () => {
+                    WA.nav.openCoWebSite("Aufgaben", "./app/aufgaben.html", true);
+                },
+            });
+        });
+
+        WA.room.onLeaveLayer("aufgaben").subscribe(() => {
+            aufgabenAction?.remove();
         });
 
         bootstrapExtra()
