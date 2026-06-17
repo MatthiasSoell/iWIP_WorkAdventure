@@ -5,7 +5,6 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 console.info("Script started successfully");
 
 let welcomePopup: any = undefined;
-let aufgabenAction: any = undefined;
 
 WA.onInit()
     .then(() => {
@@ -17,13 +16,13 @@ WA.onInit()
                 "welcome_popup",
                 `👋 Herzlich Willkommen, liebe Pixelschubser & Wissensarchitekten!
 
-                Im virtuellen Lernraum des Moduls "Digitales Lehren und Lernen" erwartet Sie heute eine spannende Reise durch die Welt der digitalen Lernumgebungen 💻.
+Im virtuellen Lernraum des Moduls "Digitales Lehren und Lernen" erwartet Sie heute eine spannende Reise durch die Welt der digitalen Lernumgebungen 💻.
 
-                Gemeinsam werden wir erkunden 🔎, wie wir solche Räume gestalten 🎨 können, damit sie nicht nur lernförderlich 🧠, sondern auch datenschutzsensibel 🔐 sind.
+Gemeinsam werden wir erkunden 🔎, wie wir solche Räume gestalten 🎨 können, damit sie nicht nur lernförderlich 🧠, sondern auch datenschutzsensibel 🔐 sind.
 
-                Ihre Aufgaben 📝 erhalten Sie am Tisch 🪑 nebenan.
+Ihre Aufgaben 📝 erhalten Sie am Tisch 🪑 nebenan.
 
-                Viel Erfolg 🍀 und vor allem viel Spaß 😄 beim Erkunden des Raumes 🚀!`,
+Viel Erfolg 🍀 und vor allem viel Spaß 😄 beim Erkunden des Raumes 🚀!`,
                 [
                     {
                         label: "Schließen",
@@ -38,19 +37,6 @@ WA.onInit()
 
         WA.room.onLeaveLayer("info_start").subscribe(() => {
             welcomePopup?.close();
-        });
-
-        WA.room.area.onEnter("aufgaben").subscribe(() => {
-            aufgabenAction = WA.ui.displayActionMessage({
-                message: "Leertaste drücken, um die Aufgaben zu öffnen",
-                callback: () => {
-                    WA.nav.openCoWebSite("./aufgaben.html");
-                },
-            });
-        });
-
-        WA.room.area.onLeave("aufgaben").subscribe(() => {
-            aufgabenAction?.remove();
         });
 
         bootstrapExtra()
